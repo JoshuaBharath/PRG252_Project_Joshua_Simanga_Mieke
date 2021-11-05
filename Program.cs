@@ -16,7 +16,7 @@ namespace PRG252_Project_Joshua_Simanga_Mieke
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
         }
     }
 }
