@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PRG252_Project_Joshua_Simanga_Mieke
 {
-    class Students
+    class Students:IComparable<Students>
     {
         int StudentNumber;
         string name;
