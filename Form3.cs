@@ -20,7 +20,7 @@ namespace PRG252_Project_Joshua_Simanga_Mieke
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 f1 = new Form1();
+            Login f1 = new Login();
             f1.ShowDialog();
         }
 
