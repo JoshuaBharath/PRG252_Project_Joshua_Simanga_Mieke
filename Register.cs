@@ -262,5 +262,15 @@ namespace PRG252_Project_Joshua_Simanga_Mieke
         {
             Application.Exit();
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            comboBox1.Text = listView1.SelectedItems[0].SubItems[0].Text;
+        }
     }
 }
